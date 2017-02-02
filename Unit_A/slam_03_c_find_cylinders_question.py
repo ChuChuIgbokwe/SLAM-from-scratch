@@ -22,9 +22,17 @@ def compute_derivative(scan, min_dist):
 # For each area between a left falling edge and a right rising edge,
 # determine the average ray number and the average depth.
 def find_cylinders(scan, scan_derivative, jump, min_dist):
+	'''
+	This function finds the average depth of a cylinder while ignoring extraneous values.
+	:param scan:
+	:param scan_derivative:
+	:param jump:
+	:param min_dist:
+	:return:
+	'''
 	cylinder_list = []
-	on_cylinder = False
-	sum_ray, sum_depth, rays = 0.0, 0.0, 0
+	# on_cylinder = False
+	# sum_ray, sum_depth, rays = 0.0, 0.0, 0
 
 	cylinder_rays_list = []
 	scan_list = []
@@ -38,13 +46,15 @@ def find_cylinders(scan, scan_derivative, jump, min_dist):
 		all_rays_list.append(i)
 		if i < len(scan_derivative)-1:
 			if scan[i+1] - scan[i]> jump or scan[i-1] - scan[i]> jump : #check for left and right limits of a cylinder
-				if scan[i] < min_dist:#
+				if scan[i] < min_dist:#get rid of extraneous values, append the value after it to cylinder_rays_list
 					cylinder_rays_list.append(i+1)
 				else:
 					cylinder_rays_list.append(i)
 
 	for j,k in enumerate(cylinder_rays_list):
-		if j < len(cylinder_rays_list)-1 and j%2 ==0: #use the left and right limits of a cylinder in pairs
+		# use the left and right limits of a cylinder in pairs. This method guarantees you use indexes 0-1, 2-3, 4-5, etc
+		#together while stopping the check at the last index
+		if j < len(cylinder_rays_list)-1 and j%2 ==0:
 			start = cylinder_rays_list[j]
 			end = cylinder_rays_list[j + 1] + 1 #use the value of the next index and add one to it to make search inclusive of both limits
 			average_depth = sum(scan_list[start:end]) / float(len(scan_list[start:end]))
@@ -55,8 +65,6 @@ def find_cylinders(scan, scan_derivative, jump, min_dist):
 	# Replace this by your code.
 	# 	if i % 100 == 0:
 	# 		cylinder_list.append( (i, scan[i]) )
-
-
 
 	return cylinder_list
 
@@ -74,8 +82,7 @@ if __name__ == '__main__':
 
     # Find cylinders.
     der = compute_derivative(scan, minimum_valid_distance)
-    cylinders = find_cylinders(scan, der, depth_jump,
-                               minimum_valid_distance)
+    cylinders = find_cylinders(scan, der, depth_jump, minimum_valid_distance)
 
     # Plot results.
     plot(scan)
