@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="990990a4-b185-45c6-9733-55e6affaa68c" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/code.style.schemes" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/.PyCharm50/config/options/find.recents.xml" />
@@ -104,6 +105,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+    <list default="true" id="f4ca7c17-e433-4886-b4ec-182cf52ea508" name="Default" comment="" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
     <ignored path="slam_project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -114,6 +118,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/slam_project$slam_03_c_find_cylinders_question.coverage" NAME="slam_03_c_find_cylinders_question Coverage Results" MODIFIED="1459752015642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_A" />
@@ -125,6 +130,16 @@
     <SUITE FILE_PATH="coverage/slam_project$logfile_viewer.coverage" NAME="logfile_viewer Coverage Results" MODIFIED="1459749923905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_A" />
     <SUITE FILE_PATH="coverage/slam_project$slam_03_d_find_cylinders_cartesian_question.coverage" NAME="slam_03_d_find_cylinders_cartesian_question Coverage Results" MODIFIED="1459755677786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_A" />
     <SUITE FILE_PATH="coverage/slam_project$slam_03_b_scan_derivative_question.coverage" NAME="slam_03_b_scan_derivative_question Coverage Results" MODIFIED="1459410074316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_A" />
+=======
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/slam_project$slam_03_b_scan_derivative_question.coverage" NAME="slam_03_b_scan_derivative_question Coverage Results" MODIFIED="1470343740110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slam_project/Unit_A" />
+    <SUITE FILE_PATH="coverage/slam_project$slam_01_a_plot_motor_ticks.coverage" NAME="slam_01_a_plot_motor_ticks Coverage Results" MODIFIED="1470348510223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slam_project/Unit_A" />
+    <SUITE FILE_PATH="coverage/slam_project$slam_03_d_find_cylinders_cartesian_question.coverage" NAME="slam_03_d_find_cylinders_cartesian_question Coverage Results" MODIFIED="1474935890430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slam_project/Unit_A" />
+    <SUITE FILE_PATH="coverage/slam_project$slam_01_b_print_motor_increments.coverage" NAME="slam_01_b_print_motor_increments Coverage Results" MODIFIED="1474935831017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slam_project/Unit_A" />
+    <SUITE FILE_PATH="coverage/slam_project$slam_03_a_plot_scan.coverage" NAME="slam_03_a_plot_scan Coverage Results" MODIFIED="1470342020284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slam_project/Unit_A" />
+    <SUITE FILE_PATH="coverage/slam_project$slam_03_c_find_cylinders_question.coverage" NAME="slam_03_c_find_cylinders_question Coverage Results" MODIFIED="1474935836972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slam_project/Unit_A" />
+    <SUITE FILE_PATH="coverage/slam_project$logfile_viewer.coverage" NAME="logfile_viewer Coverage Results" MODIFIED="1474936045635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slam_project/Unit_A" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -135,6 +150,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="lego_robot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Unit_A/lego_robot.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -150,11 +166,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+=======
+      <file leaf-file-name="slam_01_a_plot_motor_ticks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_01_a_plot_motor_ticks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="logfile_viewer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Unit_A/logfile_viewer.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -170,12 +194,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+=======
+      <file leaf-file-name="slam_02_a_filter_motor_question.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_02_a_filter_motor_question.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="slam_03_b_scan_derivative_question.py" pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_b_scan_derivative_question.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
@@ -183,11 +215,19 @@
               <folding>
                 <element signature="e#88#107#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_03_b_scan_derivative_question.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+              <folding />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="slam_03_c_find_cylinders_question.py" pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_c_find_cylinders_question.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="840">
@@ -195,10 +235,18 @@
               <folding>
                 <element signature="e#109#128#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_03_c_find_cylinders_question.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="slam_03_d_find_cylinders_cartesian_question.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_d_find_cylinders_cartesian_question.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -207,20 +255,37 @@
               <folding>
                 <element signature="e#238#262#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="slam_03_d_find_cylinders_cartesian_question.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_03_d_find_cylinders_cartesian_question.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="slam_01_c_plot_motor_increments.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Unit_A/slam_01_c_plot_motor_increments.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+=======
+      <file leaf-file-name="lego_robot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/lego_robot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="44" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="slam_02_a_filter_motor_question.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Unit_A/slam_02_a_filter_motor_question.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -228,11 +293,21 @@
               <caret line="33" column="28" selection-start-line="25" selection-start-column="7" selection-end-line="33" selection-end-column="28" />
               <folding>
                 <element signature="e#102#131#0" expanded="true" />
+=======
+      <file leaf-file-name="logfile_viewer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/logfile_viewer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#91#112#0" expanded="true" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="slam_02_b_filter_motor_file_question.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Unit_A/slam_02_b_filter_motor_file_question.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -241,6 +316,14 @@
               <folding>
                 <element signature="e#319#348#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="robot4_motors.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/robot4_motors.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
             </state>
           </provider>
         </entry>
@@ -248,17 +331,27 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+=======
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Unit_A/slam_02_a_filter_motor_question.py" />
         <option value="$PROJECT_DIR$/Unit_A/slam_02_b_filter_motor_file_question.py" />
         <option value="$PROJECT_DIR$/Unit_A/slam_03_a_plot_scan.py" />
         <option value="$PROJECT_DIR$/Unit_A/slam_03_b_scan_derivative_question.py" />
         <option value="$PROJECT_DIR$/Unit_A/slam_03_c_find_cylinders_question.py" />
         <option value="$PROJECT_DIR$/Unit_A/slam_03_d_find_cylinders_cartesian_question.py" />
+=======
+        <option value="$PROJECT_DIR$/slam_project/Unit_A/slam_03_b_scan_derivative_question.py" />
+        <option value="$PROJECT_DIR$/slam_project/Unit_A/slam_03_c_find_cylinders_question.py" />
+        <option value="$PROJECT_DIR$/slam_project/Unit_A/slam_01_b_print_motor_increments.py" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
       </list>
     </option>
   </component>
@@ -270,6 +363,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
+<<<<<<< HEAD
     <option name="y" value="-4" />
     <option name="width" value="1301" />
     <option name="height" value="772" />
@@ -286,6 +380,14 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+=======
+    <option name="y" value="24" />
+    <option name="width" value="927" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -298,6 +400,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
+<<<<<<< HEAD
     <panes />
   </component>
   <component name="PropertiesComponent">
@@ -308,91 +411,197 @@
   </component>
   <component name="RunManager" selected="Python.slam_03_d_find_cylinders_cartesian_question">
     <configuration default="false" name="slam_03_a_plot_scan" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_A" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="slam_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_A/slam_03_a_plot_scan.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="logfile_viewer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_A" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="slam_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_A/logfile_viewer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="slam_03_b_scan_derivative_question" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_A" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="slam_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_A/slam_03_b_scan_derivative_question.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+=======
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unit_A" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Python.logfile_viewer">
     <configuration default="false" name="slam_03_c_find_cylinders_question" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_A" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/slam_project/Unit_A" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="slam_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_A/slam_03_c_find_cylinders_question.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_A/slam_03_a_plot_scan.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slam_project/Unit_A/slam_03_c_find_cylinders_question.py" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="slam_03_d_find_cylinders_cartesian_question" type="PythonConfigurationType" factoryName="Python" temporary="true">
+<<<<<<< HEAD
+    <configuration default="false" name="logfile_viewer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="slam_01_a_plot_motor_ticks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_A" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/slam_project/Unit_A" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="slam_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_A/logfile_viewer.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slam_project/Unit_A/slam_01_a_plot_motor_ticks.py" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+<<<<<<< HEAD
+    <configuration default="false" name="slam_03_b_scan_derivative_question" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="slam_01_b_print_motor_increments" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_A" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/slam_project/Unit_A" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slam_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_A/slam_03_b_scan_derivative_question.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slam_project/Unit_A/slam_01_b_print_motor_increments.py" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+<<<<<<< HEAD
+    <configuration default="false" name="slam_03_c_find_cylinders_question" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="slam_03_d_find_cylinders_cartesian_question" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_A" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/slam_project/Unit_A" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slam_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_A/slam_03_c_find_cylinders_question.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slam_project/Unit_A/slam_03_d_find_cylinders_cartesian_question.py" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+<<<<<<< HEAD
+    <configuration default="false" name="slam_03_d_find_cylinders_cartesian_question" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="logfile_viewer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_A" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/slam_project/Unit_A" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slam_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_A/slam_03_d_find_cylinders_cartesian_question.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slam_project/Unit_A/logfile_viewer.py" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -466,6 +675,22 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="slam_project" />
+      <method />
+    </configuration>
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -476,7 +701,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+<<<<<<< HEAD
       <command value="run-script" />
+=======
+      <command value="run" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -593,6 +822,7 @@
       <method />
     </configuration>
     <list size="5">
+<<<<<<< HEAD
       <item index="0" class="java.lang.String" itemvalue="Python.slam_03_a_plot_scan" />
       <item index="1" class="java.lang.String" itemvalue="Python.logfile_viewer" />
       <item index="2" class="java.lang.String" itemvalue="Python.slam_03_b_scan_derivative_question" />
@@ -606,6 +836,21 @@
         <item index="2" class="java.lang.String" itemvalue="Python.logfile_viewer" />
         <item index="3" class="java.lang.String" itemvalue="Python.slam_03_b_scan_derivative_question" />
         <item index="4" class="java.lang.String" itemvalue="Python.slam_03_a_plot_scan" />
+=======
+      <item index="0" class="java.lang.String" itemvalue="Python.slam_03_c_find_cylinders_question" />
+      <item index="1" class="java.lang.String" itemvalue="Python.slam_01_a_plot_motor_ticks" />
+      <item index="2" class="java.lang.String" itemvalue="Python.slam_01_b_print_motor_increments" />
+      <item index="3" class="java.lang.String" itemvalue="Python.slam_03_d_find_cylinders_cartesian_question" />
+      <item index="4" class="java.lang.String" itemvalue="Python.logfile_viewer" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.logfile_viewer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.slam_03_d_find_cylinders_cartesian_question" />
+        <item index="2" class="java.lang.String" itemvalue="Python.slam_03_c_find_cylinders_question" />
+        <item index="3" class="java.lang.String" itemvalue="Python.slam_01_b_print_motor_increments" />
+        <item index="4" class="java.lang.String" itemvalue="Python.slam_01_a_plot_motor_ticks" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
       </list>
     </recent_temporary>
   </component>
@@ -617,15 +862,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="990990a4-b185-45c6-9733-55e6affaa68c" name="Default" comment="" />
       <created>1458251142406</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1458251142406</updated>
+=======
+      <changelist id="f4ca7c17-e433-4886-b4ec-182cf52ea508" name="Default" comment="" />
+      <created>1468535154559</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1468535154559</updated>
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -635,6 +889,17 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3119403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="65" y="24" width="927" height="1056" extended-state="4" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5300795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33924612" sideWeight="0.49585405" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -642,13 +907,23 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32686567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32832617" sideWeight="0.5041459" order="2" side_tool="true" content_ui="tabs" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -661,6 +936,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+<<<<<<< HEAD
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
@@ -682,10 +958,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+=======
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_01_a_plot_motor_ticks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_02_a_filter_motor_question.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -717,34 +1004,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="158" column="23" selection-start-line="158" selection-start-column="23" selection-end-line="158" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_02_a_filter_motor_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_01_a_plot_motor_ticks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_03_b_scan_derivative_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/logfile_viewer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_03_c_find_cylinders_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_a_plot_scan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_03_d_find_cylinders_cartesian_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_b_scan_derivative_question.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -769,10 +1084,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/lego_robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="44" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_02_a_filter_motor_question.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -789,10 +1111,19 @@
           <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
           <folding>
             <element signature="e#319#348#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/logfile_viewer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#91#112#0" expanded="true" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/robot4_motors.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -812,44 +1143,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/robot4_motors.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/logfile_viewer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_01_a_plot_motor_ticks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_a_plot_scan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_02_a_filter_motor_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_01_c_plot_motor_increments.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/lego_robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="44" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_02_a_filter_motor_question.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
             <element signature="e#102#131#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/logfile_viewer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#91#112#0" expanded="true" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/robot4_motors.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -868,10 +1236,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="160" column="35" selection-start-line="160" selection-start-column="35" selection-end-line="161" selection-end-column="36" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/robot4_motors.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_01_a_plot_motor_ticks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -956,18 +1331,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_03_a_plot_scan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_02_b_filter_motor_file_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/robot4_reference.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/poses_from_ticks.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/robot4_motors.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_01_c_plot_motor_increments.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/lego_robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="44" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_02_a_filter_motor_question.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1018,34 +1435,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_01_b_print_motor_increments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_01_c_plot_motor_increments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_01_a_plot_motor_ticks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/logfile_viewer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_02_a_filter_motor_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_a_plot_scan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_03_b_scan_derivative_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/lego_robot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1770">
           <caret line="118" column="73" selection-start-line="118" selection-start-column="73" selection-end-line="118" selection-end-column="73" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_03_c_find_cylinders_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_b_scan_derivative_question.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1080,10 +1539,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/slam_03_d_find_cylinders_cartesian_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_02_a_filter_motor_question.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1100,6 +1566,14 @@
           <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
           <folding>
             <element signature="e#319#348#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/slam_project/Unit_A/logfile_viewer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#91#112#0" expanded="true" />
+>>>>>>> d17dd51278c5569845934ee73e936fa8468c2e2a
           </folding>
         </state>
       </provider>
