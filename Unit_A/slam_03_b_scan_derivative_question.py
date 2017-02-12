@@ -11,7 +11,6 @@ def compute_derivative(scan, min_dist):
         # --->>> Insert your code here.
         # Compute derivative using formula "(f(i+1) - f(i-1)) / 2".
         # Do not use erroneous scan values, which are below min_dist.
-        derivative = (scan[i+1]-scan[i-1])/2
         # jumps.append(i%20 * 10) # Replace this line, append derivative instead.
         if scan[i+1]> min_dist and scan[i-1]> min_dist:
             derivative = (scan[i+1]-scan[i-1])/2.0

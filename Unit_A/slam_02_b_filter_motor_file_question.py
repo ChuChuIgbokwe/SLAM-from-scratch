@@ -22,32 +22,45 @@ def filter_step(old_pose, motor_ticks, ticks_to_mm, robot_width,
         # --->>> Use your previous implementation.
         # Think about if you need to modify your old code due to the
         # scanner displacement?
-
-        x = old_pose[0] + motor_ticks[0] * ticks_to_mm * cos(old_pose[2])
-        y = old_pose[1] + motor_ticks[0] * ticks_to_mm * sin(old_pose[2])
-        theta = old_pose[2]
+        x,y,theta = old_pose
+        x = x + motor_ticks[0] * ticks_to_mm * cos(theta)
+        y = y + motor_ticks[0] * ticks_to_mm * sin(theta)
+        # theta = old_pose[2]
         return (x, y, theta)
 
     else:
         # Turn. Compute alpha, R, etc.
+        old_theta = old_pose[2]
+        old_x = old_pose[0] - cos(old_theta) * scanner_displacement
+        old_y = old_pose[1] - sin(old_theta) * scanner_displacement
+
+        l = motor_ticks[0] * ticks_to_mm
+        r = motor_ticks[1] * ticks_to_mm
+        alpha = (r - l) / robot_width
+        R = l / alpha
+        theta = (old_theta + alpha) % (2.0 * pi)
 
         # --->>> Modify your previous implementation.
         # First modify the the old pose to get the center (because the
         #   old pose is the LiDAR's pose, not the robot's center pose).
         # Second, execute your old code, which implements the motion model
         #   for the center of the robot.
-		alpha = ((motor_ticks[1] - motor_ticks[0]) * ticks_to_mm) / robot_width
-		R = (motor_ticks[0] * ticks_to_mm) / alpha
-		theta = (old_pose[2] + alpha) %(2 * pi)
-		Cx = old_pose[0] - (R + (robot_width/2)) * (sin(old_pose[2])) - scanner_displacement
-		Cy = old_pose[1] - (R + (robot_width/2)) * (-cos(old_pose[2])) - scanner_displacement
 
-		# Third, modify the result to get back the LiDAR pose from
-		#   your computed center. This is the value you have to return.
-		x = Cx + (R + (robot_width/2)) * sin(theta) + scanner_displacement
-		y = Cy + (R + (robot_width/2)) * -cos(theta) + scanner_displacement
+        Cx = old_x - (R + robot_width / 2.0) * sin(old_theta)
+        Cy = old_y - (R + robot_width / 2.0) * (-cos(old_theta))
 
-		return (x, y, theta)
+        x = Cx + (R + robot_width / 2.0) * sin(theta)
+        y = Cy + (R + robot_width / 2.0) * (-cos(theta))
+
+        # Third, modify the result to get back the LiDAR pose from
+        #   your computed center. This is the value you have to return.
+        x += cos(theta) * scanner_displacement
+        y += sin(theta) * scanner_displacement
+
+        return (x, y, theta)
+
+
+
 
 if __name__ == '__main__':
     # Empirically derived distance between scanner and assumed
@@ -58,7 +71,7 @@ if __name__ == '__main__':
     ticks_to_mm = 0.349
 
     # Measured width of the robot (wheel gauge), in mm.
-    robot_width = 173.0
+    robot_width = 150.0 #173.0
 
     # Measured start position.
     pose = (1850.0, 1897.0, 213.0 / 180.0 * pi)
