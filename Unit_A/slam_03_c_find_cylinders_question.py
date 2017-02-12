@@ -64,6 +64,10 @@ def find_cylinders(scan, scan_derivative, jump, min_dist):
 	# Replace this by your code.
 	# 	if i % 100 == 0:
 	# 		cylinder_list.append( (i, scan[i]) )
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2766d3067de7fa774c7fb4cdf8c753a0e09c7d26
 	return cylinder_list
 
 if __name__ == '__main__':
