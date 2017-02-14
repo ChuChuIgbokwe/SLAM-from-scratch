@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38df1cff-4e28-4bea-90dd-742dd2e5fd7e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_A/slam_03_c_find_cylinders_question.py" afterPath="$PROJECT_DIR$/Unit_A/slam_03_c_find_cylinders_question.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_B/slam_04_b_find_cylinder_pairs_question.py" afterPath="$PROJECT_DIR$/Unit_B/slam_04_b_find_cylinder_pairs_question.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_A/slam_03_d_find_cylinders_cartesian_question.py" afterPath="$PROJECT_DIR$/Unit_A/slam_03_d_find_cylinders_cartesian_question.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,13 +52,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slam_03_c_find_cylinders_question.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="slam_03_c_find_cylinders_question.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_c_find_cylinders_question.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="80">
+              <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
               <folding>
                 <element signature="e#109#128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slam_03_d_find_cylinders_cartesian_question.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_d_find_cylinders_cartesian_question.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+              <folding>
+                <element signature="e#238#262#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,10 +96,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Unit_A/slam_03_d_find_cylinders_cartesian_question.py" />
         <option value="$PROJECT_DIR$/Unit_A/slam_02_b_filter_motor_file_question.py" />
         <option value="$PROJECT_DIR$/Unit_B/slam_04_b_find_cylinder_pairs_question.py" />
         <option value="$PROJECT_DIR$/Unit_A/slam_03_c_find_cylinders_question.py" />
+        <option value="$PROJECT_DIR$/Unit_A/slam_03_d_find_cylinders_cartesian_question.py" />
       </list>
     </option>
   </component>
@@ -628,16 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_d_find_cylinders_cartesian_question.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="138" column="19" lean-forward="false" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
-          <folding>
-            <element signature="e#238#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Unit_A/logfile_viewer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -686,10 +687,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_c_find_cylinders_question.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="80">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding>
             <element signature="e#109#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_A/slam_03_d_find_cylinders_cartesian_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding>
+            <element signature="e#238#262#0" expanded="true" />
           </folding>
         </state>
       </provider>
