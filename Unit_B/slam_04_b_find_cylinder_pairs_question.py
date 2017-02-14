@@ -8,10 +8,16 @@ from slam_b_library import filter_step
 from slam_04_a_project_landmarks import\
      compute_scanner_cylinders, write_cylinders
 
+import math
+
 # Given a list of cylinders (points) and reference_cylinders:
 # For every cylinder, find the closest reference_cylinder and add
 # the index pair (i, j), where i is the index of the cylinder, and
 # j is the index of the reference_cylinder, to the result list.
+
+def distance_btw(p1,p2):
+    return ((p1[0]-p2[0])**2 + (p1[1]-p2[1])**2)**0.5
+
 def find_cylinder_pairs(cylinders, reference_cylinders, max_radius):
     cylinder_pairs = []
 
@@ -20,8 +26,18 @@ def find_cylinder_pairs(cylinders, reference_cylinders, max_radius):
     # In the loop, if cylinders[i] is closest to reference_cylinders[j],
     # and their distance is below max_radius, then add the
     # tuple (i,j) to cylinder_pairs, i.e., cylinder_pairs.append( (i,j) ).
-
+    for i in range(len(cylinders)):
+        temp = []
+        for j in range(len(reference_cylinders)):
+            dist = distance_btw(cylinders[i],reference_cylinders[j])
+            temp.append(dist)
+        if min(temp) < max_radius:
+            cylinder_pairs.append((i,temp.index(min(temp))))
+    print cylinder_pairs
     return cylinder_pairs
+
+
+
 
 
 if __name__ == '__main__':
