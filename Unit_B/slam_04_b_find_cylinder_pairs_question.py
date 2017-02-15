@@ -33,7 +33,7 @@ def find_cylinder_pairs(cylinders, reference_cylinders, max_radius):
             temp.append(dist)
         if min(temp) < max_radius:
             cylinder_pairs.append((i,temp.index(min(temp))))
-    print cylinder_pairs
+    # print cylinder_pairs
     return cylinder_pairs
 
 

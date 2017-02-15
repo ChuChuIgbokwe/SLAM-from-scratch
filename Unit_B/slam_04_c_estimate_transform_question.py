@@ -10,18 +10,28 @@ from slam_b_library import filter_step
 from slam_04_a_project_landmarks import\
      compute_scanner_cylinders, write_cylinders
 from math import sqrt
+import numpy as np
 
 # Given a list of cylinders (points) and reference_cylinders:
 # For every cylinder, find the closest reference_cylinder and add
 # the index pair (i, j), where i is the index of the cylinder, and
 # j is the index of the reference_cylinder, to the result list.
 # This is the function developed in slam_04_b_find_cylinder_pairs.
+def distance_btw(p1,p2):
+    return ((p1[0]-p2[0])**2 + (p1[1]-p2[1])**2)**0.5
+
 def find_cylinder_pairs(cylinders, reference_cylinders, max_radius):
     cylinder_pairs = []
 
     # --->>> Insert here your code from the last question,
     # slam_04_b_find_cylinder_pairs.
-
+    for i in range(len(cylinders)):
+        temp = []
+        for j in range(len(reference_cylinders)):
+            dist = distance_btw(cylinders[i],reference_cylinders[j])
+            temp.append(dist)
+        if min(temp) < max_radius:
+            cylinder_pairs.append((i,temp.index(min(temp))))
     return cylinder_pairs
 
 # Given a point list, return the center of mass.
@@ -42,11 +52,38 @@ def compute_center(point_list):
 # i.e., the rotation angle is not given in radians, but rather in terms
 # of the cosine and sine.
 def estimate_transform(left_list, right_list, fix_scale = False):
+    if len(left_list) < 2 or len(right_list):
+        return None
     # Compute left and right center.
     lc = compute_center(left_list)
     rc = compute_center(right_list)
-
     # --->>> Insert here your code to compute lambda, c, s and tx, ty.
+    m = len(left_list)
+    #Compute reduced coordinates.
+    li = [tuple(np.subtract(l,lc)) for l in left_list]
+    ri = [tuple(np.subtract(r,rc)) for r in right_list]
+
+    cs,ss,rr,ll = 0.0,0.0,0.0,0.0
+
+    for i in range(m):
+        cs += ri[i][0] * li[i][0] + ri[i][1] * li[i][1]
+        ss += -(ri[i][0] * li[i][1]) + ri[i][1] * li[i][0]
+        rr +=  (ri[i][0]* ri[i][0]) + (ri[i][1]*ri[i][1])
+        ll +=  (li[i][0]* li[i][0]) + (li[i][1]*li[i][1])
+    #Compute Scale
+    if fix_scale:
+        la = 1.0
+    else:
+        la = sqrt(rr/ll)
+    #Compute Rotation
+    if cs == 0.0 or ss == 0.0:
+        return None
+    else:
+        c = cs/sqrt(cs**2 + ss **2)
+        s = ss / sqrt(cs ** 2 + ss ** 2)
+    #Compute Translation
+    tx = rc[0] - (la * (c * lc[0]) - (s * lc[1]))
+    ty = rc[1] - (la * (s * lc[0]) + (c * lc[1]))
 
     return la, c, s, tx, ty
 
