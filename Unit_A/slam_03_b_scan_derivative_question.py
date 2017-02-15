@@ -1,11 +1,23 @@
-# Compute the derivative of a scan.
-# 03_b_scan_derivative
-# Claus Brenner, 09 NOV 2012
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
 from pylab import *
 from lego_robot import *
 
-# Find the derivative in scan data, ignoring invalid measurements.
+'''
+Compute the derivative of a scan.
+03_b_scan_derivative
+Claus Brenner, 09 NOV 2012
+'''
+
 def compute_derivative(scan, min_dist):
+    '''
+    Find the derivative in scan data, ignoring invalid measurements.
+    :param scan:
+    :param min_dist:
+    :return: jumps
+    '''
     jumps = [ 0 ]
     for i in xrange(1, len(scan) - 1):
         # --->>> Insert your code here.

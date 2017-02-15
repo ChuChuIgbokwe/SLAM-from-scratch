@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # Python routines to inspect a ikg LEGO robot logfile.
 # Author: Claus Brenner, 28.10.2012
 from Tkinter import *

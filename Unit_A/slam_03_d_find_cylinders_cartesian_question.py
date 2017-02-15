@@ -1,13 +1,24 @@
-# For each cylinder in the scan, find its cartesian coordinates,
-# in the scanner's coordinate system.
-# Write the result to a file which contains all cylinders, for all scans.
-# 03_d_find_cylinders_cartesian
-# Claus Brenner, 09 NOV 2012
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from lego_robot import *
 from math import sin, cos
 
-# Find the derivative in scan data, ignoring invalid measurements.
+'''
+For each cylinder in the scan, find its cartesian coordinates,
+in the scanner's coordinate system.
+Write the result to a file which contains all cylinders, for all scans.
+03_d_find_cylinders_cartesian
+Claus Brenner, 09 NOV 2012
+'''
+
 def compute_derivative(scan, min_dist):
+    '''
+    # Find the derivative in scan data, ignoring invalid measurements.
+    :param scan:
+    :param min_dist:
+    :return: jumps
+    '''
     jumps = [ 0 ]
     for i in xrange(1, len(scan) - 1):
         l = scan[i-1]
@@ -20,9 +31,17 @@ def compute_derivative(scan, min_dist):
     jumps.append(0)
     return jumps
 
-# For each area between a left falling edge and a right rising edge,
-# determine the average ray number and the average depth.
+
 def find_cylinders(scan, scan_derivative, jump, min_dist):
+    '''
+    For each area between a left falling edge and a right rising edge,
+    determine the average ray number and the average depth.
+    :param scan:
+    :param scan_derivative:
+    :param jump:
+    :param min_dist:
+    :return: cylinder_list
+    '''
     cylinder_list = []
     on_cylinder = False
     sum_ray, sum_depth, rays = 0.0, 0.0, 0

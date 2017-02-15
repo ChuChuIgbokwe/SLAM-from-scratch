@@ -1,12 +1,23 @@
-# For each cylinder in the scan, find its ray and depth.
-# 03_c_find_cylinders
-# Claus Brenner, 09 NOV 2012
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 from pylab import *
 from lego_robot import *
 #got it working 31/03/2016 by 12.05am
-# Find the derivative in scan data, ignoring invalid measurements.
+
+'''
+For each cylinder in the scan, find its ray and depth.
+03_c_find_cylinders
+Claus Brenner, 09 NOV 2012
+'''
+
 def compute_derivative(scan, min_dist):
+    '''
+    Find the derivative in scan data, ignoring invalid measurements.
+    :param scan:
+    :param min_dist:
+    :return: jumps
+    '''
     jumps = [ 0 ]
     for i in xrange(1, len(scan) - 1):
         l = scan[i-1]

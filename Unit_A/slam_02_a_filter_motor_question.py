@@ -1,13 +1,27 @@
-# Implement the first move model for the Lego robot.
-# 02_a_filter_motor
-# Claus Brenner, 31 OCT 2012
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
 from math import sin, cos, pi
 from pylab import *
 from lego_robot import *
 
-# This function takes the old (x, y, heading) pose and the motor ticks
-# (ticks_left, ticks_right) and returns the new (x, y, heading).
+'''
+Implement the first move model for the Lego robot.
+02_a_filter_motor
+Claus Brenner, 31 OCT 2012
+'''
+
 def filter_step(old_pose, motor_ticks, ticks_to_mm, robot_width):
+    '''
+    This function takes the old (x, y, heading) pose and the motor ticks
+    (ticks_left, ticks_right) and returns the new (x, y, heading).
+    :param old_pose:
+    :param motor_ticks:
+    :param ticks_to_mm:
+    :param robot_width:
+    :return: x,y theta
+    '''
 
     # Find out if there is a turn at all.
     if motor_ticks[0] == motor_ticks[1]:

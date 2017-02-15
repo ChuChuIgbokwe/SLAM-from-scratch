@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # Python routines useful for handling ikg's LEGO robot data.
 # Author: Claus Brenner, 28.10.2012
 

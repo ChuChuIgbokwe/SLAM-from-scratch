@@ -1,7 +1,13 @@
-# Plot the ticks from the left and right motor.
-# 01_a_plot_motor_ticks.py
-# Claus Brenner, 07 NOV 2012
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
 from pylab import *
+'''
+Plot the ticks from the left and right motor.
+01_a_plot_motor_ticks.py
+Claus Brenner, 07 NOV 2012
+'''
 
 if __name__ == '__main__':
     # Read all ticks of left and right motor.
