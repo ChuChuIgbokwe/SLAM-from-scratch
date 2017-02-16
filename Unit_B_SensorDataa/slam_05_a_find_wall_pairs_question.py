@@ -46,10 +46,23 @@ def get_corresponding_points_on_wall(points,
     :param eps:
     :return: left_list, right_list
     '''
+    # print points
     left_list = []
     right_list = []
-
     # ---> Implement your code here.
+    for p in points:
+        if abs(p[0]) < eps:
+            left_list.append(p)
+            right_list.append((arena_left,p[1]))
+        if abs(p[0] - arena_right) < eps:
+            left_list.append(p)
+            right_list.append((arena_right,p[1]))
+        if abs(p[1] - arena_top)< eps:
+            left_list.append(p)
+            right_list.append((p[0],arena_top))
+        if abs(p[1] - arena_bottom)< eps:
+            left_list.append(p)
+            right_list.append((p[0],arena_bottom))
 
     return left_list, right_list
 
