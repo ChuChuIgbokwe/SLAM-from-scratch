@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38df1cff-4e28-4bea-90dd-742dd2e5fd7e" name="Default" comment="Folders renamed">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/apply_transform.txt" afterPath="$PROJECT_DIR$/Unit_B_SensorData/apply_transform.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/estimate_transform.txt" afterPath="$PROJECT_DIR$/Unit_B_SensorData/estimate_transform.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/estimate_wall_transform.txt" afterPath="$PROJECT_DIR$/Unit_B_SensorData/estimate_wall_transform.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/find_cylinder_pairs.txt" afterPath="$PROJECT_DIR$/Unit_B_SensorData/find_cylinder_pairs.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/find_wall_pairs.txt" afterPath="$PROJECT_DIR$/Unit_B_SensorData/find_wall_pairs.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/icp_wall_transform.txt" afterPath="$PROJECT_DIR$/Unit_B_SensorData/icp_wall_transform.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/lego_robot.py" afterPath="$PROJECT_DIR$/Unit_B_SensorData/lego_robot.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/logfile_viewer.py" afterPath="$PROJECT_DIR$/Unit_B_SensorData/logfile_viewer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/project_landmarks.txt" afterPath="$PROJECT_DIR$/Unit_B_SensorData/project_landmarks.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/robot4_motors.txt" afterPath="$PROJECT_DIR$/Unit_B_SensorData/robot4_motors.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/robot4_reference.txt" afterPath="$PROJECT_DIR$/Unit_B_SensorData/robot4_reference.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/robot4_scan.txt" afterPath="$PROJECT_DIR$/Unit_B_SensorData/robot4_scan.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/robot_arena_landmarks.txt" afterPath="$PROJECT_DIR$/Unit_B_SensorData/robot_arena_landmarks.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/slam_04_a_project_landmarks.py" afterPath="$PROJECT_DIR$/Unit_B_SensorData/slam_04_a_project_landmarks.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/slam_04_b_find_cylinder_pairs_question.py" afterPath="$PROJECT_DIR$/Unit_B_SensorData/slam_04_b_find_cylinder_pairs_question.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/slam_04_c_estimate_transform_question.py" afterPath="$PROJECT_DIR$/Unit_B_SensorData/slam_04_c_estimate_transform_question.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/slam_04_d_apply_transform_question.py" afterPath="$PROJECT_DIR$/Unit_B_SensorData/slam_04_d_apply_transform_question.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/slam_05_a_find_wall_pairs_question.py" afterPath="$PROJECT_DIR$/Unit_B_SensorData/slam_05_a_find_wall_pairs_question.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/slam_05_b_estimate_wall_transform.py" afterPath="$PROJECT_DIR$/Unit_B_SensorData/slam_05_b_estimate_wall_transform.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/slam_05_c_icp_wall_transform_question.py" afterPath="$PROJECT_DIR$/Unit_B_SensorData/slam_05_c_icp_wall_transform_question.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Unit_B_SensorDataa/slam_b_library.py" afterPath="$PROJECT_DIR$/Unit_B_SensorData/slam_b_library.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/slam_project$slam_05_a_find_wall_pairs_question.coverage" NAME="slam_05_a_find_wall_pairs_question Coverage Results" MODIFIED="1487205524103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B_SensorDataa" />
     <SUITE FILE_PATH="coverage/slam_project$slam_03_d_find_cylinders_cartesian_question.coverage" NAME="slam_03_d_find_cylinders_cartesian_question Coverage Results" MODIFIED="1486961921059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_A" />
-    <SUITE FILE_PATH="coverage/slam_project$logfile_viewer__1_.coverage" NAME="logfile_viewer (1) Coverage Results" MODIFIED="1487195259684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B" />
+    <SUITE FILE_PATH="coverage/slam_project$logfile_viewer__1_.coverage" NAME="logfile_viewer (1) Coverage Results" MODIFIED="1487271091836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B_SensorData" />
     <SUITE FILE_PATH="coverage/slam_project$logfile_viewer.coverage" NAME="logfile_viewer Coverage Results" MODIFIED="1487208809666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B_SensorDataa" />
     <SUITE FILE_PATH="coverage/slam_project$slam_04_a_project_landmarks.coverage" NAME="slam_04_a_project_landmarks Coverage Results" MODIFIED="1487012491162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B" />
     <SUITE FILE_PATH="coverage/slam_project$slam_02_a_filter_motor_question.coverage" NAME="slam_02_a_filter_motor_question Coverage Results" MODIFIED="1486963104466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_A" />
@@ -53,69 +34,21 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="logfile_viewer.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/logfile_viewer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slam_05_b_estimate_wall_transform.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_05_b_estimate_wall_transform.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="56" column="29" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="56" selection-end-column="29" />
-              <folding>
-                <element signature="e#48#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slam_05_a_find_wall_pairs_question.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_05_a_find_wall_pairs_question.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1055">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#48#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slam_05_c_icp_wall_transform_question.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_05_c_icp_wall_transform_question.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="51" column="45" lean-forward="false" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
-              <folding>
-                <element signature="e#48#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slam_b_library.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_b_library.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1249">
-              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>background_draw</find>
       <find>write</find>
     </findStrings>
   </component>
@@ -148,6 +81,7 @@
         <option value="$PROJECT_DIR$/Unit_B_SensorDataa/slam_05_a_find_wall_pairs_question.py" />
         <option value="$PROJECT_DIR$/Unit_B_SensorDataa/slam_05_b_estimate_wall_transform.py" />
         <option value="$PROJECT_DIR$/Unit_B_SensorDataa/slam_05_c_icp_wall_transform_question.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -202,25 +136,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.logfile_viewer">
-    <configuration default="false" name="slam_04_d_apply_transform_question (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_B_SensorDataa" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="slam_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_B_SensorDataa/slam_04_d_apply_transform_question.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.logfile_viewer (1)">
     <configuration default="false" name="logfile_viewer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,6 +205,24 @@
       <module name="slam_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_B_SensorDataa/slam_05_c_icp_wall_transform_question.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="logfile_viewer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_B_SensorData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slam_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_B_SensorData/logfile_viewer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -508,19 +442,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.slam_04_d_apply_transform_question (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.logfile_viewer" />
-      <item index="2" class="java.lang.String" itemvalue="Python.slam_05_a_find_wall_pairs_question" />
-      <item index="3" class="java.lang.String" itemvalue="Python.slam_05_b_estimate_wall_transform" />
-      <item index="4" class="java.lang.String" itemvalue="Python.slam_05_c_icp_wall_transform_question" />
+      <item index="0" class="java.lang.String" itemvalue="Python.logfile_viewer" />
+      <item index="1" class="java.lang.String" itemvalue="Python.slam_05_a_find_wall_pairs_question" />
+      <item index="2" class="java.lang.String" itemvalue="Python.slam_05_b_estimate_wall_transform" />
+      <item index="3" class="java.lang.String" itemvalue="Python.slam_05_c_icp_wall_transform_question" />
+      <item index="4" class="java.lang.String" itemvalue="Python.logfile_viewer (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.logfile_viewer" />
-        <item index="1" class="java.lang.String" itemvalue="Python.slam_05_c_icp_wall_transform_question" />
-        <item index="2" class="java.lang.String" itemvalue="Python.slam_05_b_estimate_wall_transform" />
-        <item index="3" class="java.lang.String" itemvalue="Python.slam_05_a_find_wall_pairs_question" />
-        <item index="4" class="java.lang.String" itemvalue="Python.slam_04_d_apply_transform_question (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.logfile_viewer (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.logfile_viewer" />
+        <item index="2" class="java.lang.String" itemvalue="Python.slam_05_c_icp_wall_transform_question" />
+        <item index="3" class="java.lang.String" itemvalue="Python.slam_05_b_estimate_wall_transform" />
+        <item index="4" class="java.lang.String" itemvalue="Python.slam_05_a_find_wall_pairs_question" />
       </list>
     </recent_temporary>
   </component>
@@ -549,15 +483,15 @@
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11719182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11719182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33870968" sideWeight="0.5063571" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33870968" sideWeight="0.5063571" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268817" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33870968" sideWeight="0.4936429" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33870968" sideWeight="0.4936429" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38691795" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -683,13 +617,6 @@
     <entry file="file://$PROJECT_DIR$/Unit_B/slam_04_a_project_landmarks.py" />
     <entry file="file://$PROJECT_DIR$/Unit_D/slam_d_library.py" />
     <entry file="file://$PROJECT_DIR$/Unit_E/slam_e_library.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Unit_B/slam_04_c_estimate_transform_question.py" />
     <entry file="file://$PROJECT_DIR$/Unit_B/logfile_viewer.py" />
     <entry file="file://$PROJECT_DIR$/Unit_B/slam_04_d_apply_transform_question.py" />
@@ -804,28 +731,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_b_library.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1249">
-          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="165">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_05_a_find_wall_pairs_question.py">
+    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/logfile_viewer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1055">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-460">
+          <caret line="87" column="23" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_05_b_estimate_wall_transform.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="56" column="29" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="56" selection-end-column="29" />
+          <caret line="56" column="29" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="56" selection-end-column="29" />
+          <folding>
+            <element signature="e#48#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_05_a_find_wall_pairs_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1055">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#48#72#0" expanded="true" />
           </folding>
@@ -842,10 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/logfile_viewer.py">
+    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_b_library.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="-1249">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding />
         </state>
       </provider>
