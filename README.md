@@ -25,3 +25,8 @@ cylinder locations in the world
     
 * **Unit G**
     * Particle Filter SLAM
+    
+    
+####Packages to install 
+* ```sudo apt-get install python-imaging-tk```
+* ```sudo apt-get install python-pil.imagetk```

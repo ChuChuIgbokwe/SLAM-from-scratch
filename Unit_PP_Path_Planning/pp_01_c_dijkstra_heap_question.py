@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # Dijkstra path planning.
 # Third version: introduces a heap.
 # pp_01_c_dijkstra_heap

@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # Dijkstra path planning.
 # Fourth version: Reconstruct the path from start to goal.
 # pp_01_d_dijkstra_path

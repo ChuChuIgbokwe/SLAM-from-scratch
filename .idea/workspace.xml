@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38df1cff-4e28-4bea-90dd-742dd2e5fd7e" name="Default" comment="Folders renamed">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_B_SensorData/lego_robot.py" afterPath="$PROJECT_DIR$/Unit_B_SensorData/lego_robot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_B_SensorData/logfile_viewer.py" afterPath="$PROJECT_DIR$/Unit_B_SensorData/logfile_viewer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_PP_Path_Planning/common.py" afterPath="$PROJECT_DIR$/Unit_PP_Path_Planning/common.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_PP_Path_Planning/gui.py" afterPath="$PROJECT_DIR$/Unit_PP_Path_Planning/gui.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_a_dijkstra_question.py" afterPath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_a_dijkstra_question.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_b_dijkstra_visited_question.py" afterPath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_b_dijkstra_visited_question.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_c_dijkstra_heap_question.py" afterPath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_c_dijkstra_heap_question.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_d_dijkstra_path_question.py" afterPath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_d_dijkstra_path_question.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_e_astar_question.py" afterPath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_e_astar_question.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_f_astar_potential_function_question.py" afterPath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_f_astar_potential_function_question.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_02_a_car_statespace.py" afterPath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_02_a_car_statespace.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_02_b_car_statespace_astar_question.py" afterPath="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_02_b_car_statespace_astar_question.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,6 +29,8 @@
     <SUITE FILE_PATH="coverage/slam_project$logfile_viewer__1_.coverage" NAME="logfile_viewer (1) Coverage Results" MODIFIED="1487271091836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B_SensorData" />
     <SUITE FILE_PATH="coverage/slam_project$logfile_viewer.coverage" NAME="logfile_viewer Coverage Results" MODIFIED="1487208809666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B_SensorDataa" />
     <SUITE FILE_PATH="coverage/slam_project$slam_04_a_project_landmarks.coverage" NAME="slam_04_a_project_landmarks Coverage Results" MODIFIED="1487012491162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B" />
+    <SUITE FILE_PATH="coverage/slam_project$pp_02_b_car_statespace_astar_question.coverage" NAME="pp_02_b_car_statespace_astar_question Coverage Results" MODIFIED="1487288317712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_PP_Path_Planning" />
+    <SUITE FILE_PATH="coverage/slam_project$pp_01_a_dijkstra_question.coverage" NAME="pp_01_a_dijkstra_question Coverage Results" MODIFIED="1487364536769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_PP_Path_Planning" />
     <SUITE FILE_PATH="coverage/slam_project$slam_02_a_filter_motor_question.coverage" NAME="slam_02_a_filter_motor_question Coverage Results" MODIFIED="1486963104466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_A" />
     <SUITE FILE_PATH="coverage/slam_project$slam_03_b_scan_derivative_question.coverage" NAME="slam_03_b_scan_derivative_question Coverage Results" MODIFIED="1486961567028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_A" />
     <SUITE FILE_PATH="coverage/slam_project$slam_04_c_estimate_transform_question.coverage" NAME="slam_04_c_estimate_transform_question Coverage Results" MODIFIED="1487195050061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B" />
@@ -25,9 +38,11 @@
     <SUITE FILE_PATH="coverage/slam_project$slam_04_b_find_cylinder_pairs_question.coverage" NAME="slam_04_b_find_cylinder_pairs_question Coverage Results" MODIFIED="1487185225745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B" />
     <SUITE FILE_PATH="coverage/slam_project$slam_05_c_icp_wall_transform_question.coverage" NAME="slam_05_c_icp_wall_transform_question Coverage Results" MODIFIED="1487208641531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B_SensorDataa" />
     <SUITE FILE_PATH="coverage/slam_project$slam_04_d_apply_transform_question.coverage" NAME="slam_04_d_apply_transform_question Coverage Results" MODIFIED="1487195256729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B" />
+    <SUITE FILE_PATH="coverage/slam_project$pp_01_b_dijkstra_visited_question.coverage" NAME="pp_01_b_dijkstra_visited_question Coverage Results" MODIFIED="1487367927602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_PP_Path_Planning" />
     <SUITE FILE_PATH="coverage/slam_project$slam_02_b_filter_motor_file_question.coverage" NAME="slam_02_b_filter_motor_file_question Coverage Results" MODIFIED="1487196509215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_A" />
     <SUITE FILE_PATH="coverage/slam_project$slam_04_d_apply_transform_question__1_.coverage" NAME="slam_04_d_apply_transform_question (1) Coverage Results" MODIFIED="1487202394012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B_SensorDataa" />
     <SUITE FILE_PATH="coverage/slam_project$slam_01_c_plot_motor_increments.coverage" NAME="slam_01_c_plot_motor_increments Coverage Results" MODIFIED="1486962635534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_A" />
+    <SUITE FILE_PATH="coverage/slam_project$gui.coverage" NAME="gui Coverage Results" MODIFIED="1487288724999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_PP_Path_Planning" />
     <SUITE FILE_PATH="coverage/slam_project$slam_03_c_find_cylinders_question.coverage" NAME="slam_03_c_find_cylinders_question Coverage Results" MODIFIED="1486961770733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_A" />
     <SUITE FILE_PATH="coverage/slam_project$slam_05_b_estimate_wall_transform.coverage" NAME="slam_05_b_estimate_wall_transform Coverage Results" MODIFIED="1487206322192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unit_B_SensorDataa" />
   </component>
@@ -43,13 +58,30 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="slam_project" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pp_01_c_dijkstra_heap_question.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_c_dijkstra_heap_question.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#166#201#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>background_draw</find>
       <find>write</find>
+      <find>dij</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -82,6 +114,18 @@
         <option value="$PROJECT_DIR$/Unit_B_SensorDataa/slam_05_b_estimate_wall_transform.py" />
         <option value="$PROJECT_DIR$/Unit_B_SensorDataa/slam_05_c_icp_wall_transform_question.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Unit_B_SensorData/lego_robot.py" />
+        <option value="$PROJECT_DIR$/Unit_B_SensorData/logfile_viewer.py" />
+        <option value="$PROJECT_DIR$/Unit_PP_Path_Planning/common.py" />
+        <option value="$PROJECT_DIR$/Unit_PP_Path_Planning/gui.py" />
+        <option value="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_02_b_car_statespace_astar_question.py" />
+        <option value="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_02_a_car_statespace.py" />
+        <option value="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_f_astar_potential_function_question.py" />
+        <option value="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_e_astar_question.py" />
+        <option value="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_d_dijkstra_path_question.py" />
+        <option value="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_c_dijkstra_heap_question.py" />
+        <option value="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_a_dijkstra_question.py" />
+        <option value="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_b_dijkstra_visited_question.py" />
       </list>
     </option>
   </component>
@@ -93,9 +137,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="y" value="52" />
+    <option name="width" value="927" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -126,6 +170,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slam_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unit_PP_Path_Planning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -133,82 +191,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.logfile_viewer (1)">
-    <configuration default="false" name="logfile_viewer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_B_SensorDataa" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="slam_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_B_SensorDataa/logfile_viewer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="slam_05_a_find_wall_pairs_question" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_B_SensorDataa" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="slam_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_B_SensorDataa/slam_05_a_find_wall_pairs_question.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="slam_05_b_estimate_wall_transform" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_B_SensorDataa" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="slam_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_B_SensorDataa/slam_05_b_estimate_wall_transform.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="slam_05_c_icp_wall_transform_question" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_B_SensorDataa" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="slam_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_B_SensorDataa/slam_05_c_icp_wall_transform_question.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.pp_01_b_dijkstra_visited_question">
     <configuration default="false" name="logfile_viewer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,6 +209,78 @@
       <module name="slam_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_B_SensorData/logfile_viewer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="pp_02_b_car_statespace_astar_question" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_PP_Path_Planning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slam_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_02_b_car_statespace_astar_question.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_PP_Path_Planning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slam_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_PP_Path_Planning/gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="pp_01_a_dijkstra_question" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_PP_Path_Planning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slam_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_a_dijkstra_question.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="pp_01_b_dijkstra_visited_question" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit_PP_Path_Planning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slam_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_b_dijkstra_visited_question.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -442,19 +500,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.logfile_viewer" />
-      <item index="1" class="java.lang.String" itemvalue="Python.slam_05_a_find_wall_pairs_question" />
-      <item index="2" class="java.lang.String" itemvalue="Python.slam_05_b_estimate_wall_transform" />
-      <item index="3" class="java.lang.String" itemvalue="Python.slam_05_c_icp_wall_transform_question" />
-      <item index="4" class="java.lang.String" itemvalue="Python.logfile_viewer (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.logfile_viewer (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.pp_02_b_car_statespace_astar_question" />
+      <item index="2" class="java.lang.String" itemvalue="Python.gui" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pp_01_a_dijkstra_question" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pp_01_b_dijkstra_visited_question" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.logfile_viewer (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.logfile_viewer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.slam_05_c_icp_wall_transform_question" />
-        <item index="3" class="java.lang.String" itemvalue="Python.slam_05_b_estimate_wall_transform" />
-        <item index="4" class="java.lang.String" itemvalue="Python.slam_05_a_find_wall_pairs_question" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pp_01_b_dijkstra_visited_question" />
+        <item index="1" class="java.lang.String" itemvalue="Python.pp_01_a_dijkstra_question" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gui" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pp_02_b_car_statespace_astar_question" />
+        <item index="4" class="java.lang.String" itemvalue="Python.logfile_viewer (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -479,27 +537,36 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="52" width="927" height="1028" extended-state="4" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11719182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24063565" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33870968" sideWeight="0.5063571" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268817" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33870968" sideWeight="0.4936429" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33592018" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32705098" sideWeight="0.4936429" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33924612" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24063565" sideWeight="0.5065789" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38691795" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -545,16 +612,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_04_d_apply_transform_question.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/logfile_viewer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -568,7 +625,7 @@
         <state relative-caret-position="330">
           <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
-            <element signature="e#48#72#0" expanded="true" />
+            <element signature="e#48#72#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -711,22 +768,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_04_a_project_landmarks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding>
-            <element signature="e#46#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_04_d_apply_transform_question.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-885">
           <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
-            <element signature="e#46#70#0" expanded="true" />
+            <element signature="e#46#70#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -739,19 +786,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/logfile_viewer.py">
+    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_05_b_estimate_wall_transform.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="87" column="23" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="390">
+          <caret line="56" column="29" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="56" selection-end-column="29" />
+          <folding>
+            <element signature="e#48#72#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_05_a_find_wall_pairs_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1055">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#48#72#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_05_c_icp_wall_transform_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="51" column="45" lean-forward="false" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+          <folding>
+            <element signature="e#48#72#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <first_editor relative-caret-position="435">
+            <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
             <folding />
           </first_editor>
           <second_editor />
@@ -764,41 +833,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_05_b_estimate_wall_transform.py">
+    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/logfile_viewer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="56" column="29" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="56" selection-end-column="29" />
-          <folding>
-            <element signature="e#48#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_05_a_find_wall_pairs_question.py">
+    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_04_a_project_landmarks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1055">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_05_c_icp_wall_transform_question.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="51" column="45" lean-forward="false" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
-          <folding>
-            <element signature="e#48#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/slam_b_library.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1249">
+        <state relative-caret-position="15">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_B_SensorData/lego_robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_PP_Path_Planning/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_PP_Path_Planning/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding>
+            <element signature="e#145#166#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_PP_Path_Planning/pp_02_b_car_statespace_astar_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_PP_Path_Planning/pp_02_a_car_statespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_f_astar_potential_function_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_e_astar_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_d_dijkstra_path_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_a_dijkstra_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#425#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_b_dijkstra_visited_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit_PP_Path_Planning/pp_01_c_dijkstra_heap_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#166#201#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

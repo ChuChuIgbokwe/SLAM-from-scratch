@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # Path planning using kinematic state space of car.
 # pp_02_a_car_statespace
 # (c) Claus Brenner, 16 JAN 2014

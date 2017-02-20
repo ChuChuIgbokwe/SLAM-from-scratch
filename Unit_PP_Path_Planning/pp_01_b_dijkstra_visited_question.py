@@ -1,7 +1,12 @@
-# Dijkstra path planning.
-# Second version: no algorithmic changes, but nicer visualization of cost.
-# pp_01_b_dijkstra_visited
-# (c) Claus Brenner, 15 JAN 2014
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+'''
+Dijkstra path planning.
+Second version: no algorithmic changes, but nicer visualization of cost.
+pp_01_b_dijkstra_visited
+(c) Claus Brenner, 15 JAN 2014
+'''
+
 import numpy as np
 import traceback
 import gui
@@ -63,7 +68,7 @@ def dijkstra(start, goal, obstacles):
     # In the beginning, the start is the only element in our front.
     # The first element is the cost of the path from the start to the point.
     # The second element is the position (cell) of the point.
-    front = [ (0.0, start) ]  # CHANGE 01_b: set the cost to e.g. 0.001
+    front = [ (0.001, start) ]  # CHANGE 01_b: set the cost to e.g. 0.001
 
     # In the beginning, no cell has been visited.
     extents = obstacles.shape
@@ -72,13 +77,14 @@ def dijkstra(start, goal, obstacles):
     # While there are elements to investigate in our front.
     while front:
         # Get smallest item and remove it from front.
-
+        element = min(front)
+        front.remove(element)
         # Check if this has been visited already.
         cost, pos = element
 
         # Now it is visited. Mark with cost.
         # CHANGE 01_b: set visited[pos] to cost instead of 1.
-
+        visited[pos] =cost
         # Check if the goal has been reached.
         if pos == goal:
             break  # Finished!
@@ -86,10 +92,16 @@ def dijkstra(start, goal, obstacles):
         # Check all neighbors.
         for dx, dy, deltacost in movements:
             # Determine new position and check bounds.
-
+            new_x = pos[0] + dx
+            new_y = pos[1] + dy
+            if new_x >= 0 and new_x < extents[0] and new_y >= 0 and new_y < extents[1]:
+                pass
+            else:
+                continue
             # Add to front if: not visited before and no obstacle.
             new_pos = (new_x, new_y)
-
+            if visited[new_pos] == 0 and obstacles[new_pos] !=255:
+                front.append((cost + deltacost,new_pos))
     return ([], visited)
 
 

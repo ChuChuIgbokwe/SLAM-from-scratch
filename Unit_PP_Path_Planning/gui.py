@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # Tkinter GUI used for playing with path planning algorithms.
 # Author: Claus Brenner, 14 JAN 2014
 from Tkinter import *

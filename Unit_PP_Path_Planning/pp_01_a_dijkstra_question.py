@@ -1,13 +1,20 @@
-# Dijkstra path planning.
-# This algorithm is named after Edsger W. Dijkstra, 1930-2002.
-# See: http://en.wikipedia.org/wiki/Edsger_W._Dijkstra.
-#
-# Make sure you have installed all the required libraries (see the extra
-# document with the installation instructions).
-#
-# First version: most simple implementation (not using a heap).
-# pp_01_a_dijkstra
-# (c) Claus Brenner, 15 JAN 2014
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+Dijkstra path planning.
+This algorithm is named after Edsger W. Dijkstra, 1930-2002.
+See: http://en.wikipedia.org/wiki/Edsger_W._Dijkstra.
+
+Make sure you have installed all the required libraries (see the extra
+document with the installation instructions).
+
+First version: most simple implementation (not using a heap).
+pp_01_a_dijkstra
+(c) Claus Brenner, 15 JAN 2014
+'''
+
+
 import numpy as np
 import traceback
 import gui
@@ -81,14 +88,17 @@ def dijkstra(start, goal, obstacles):
         # CHANGE 01_a:
         # - Get smallest element from 'front'. Hint: min() may be useful.
         # - Remove this element from 'front'. Hint: 'front' is a list.
+        element = min(front)
+        front.remove(element)
 
         # Check if this has been visited already.
         cost, pos = element  # Change if you named 'element' differently.
         # CHANGE 01_a: Skip the rest of the loop body if visited[pos] is > 0.
-
+        if visited[pos]> 0:
+            continue
         # Now it is visited. Mark with 1.
         # CHANGE 01_a: Set visited[pos] to 1.
-
+        visited[pos] = 1
         # Check if the goal has been reached.
         if pos == goal:
             break  # Finished!
@@ -100,12 +110,19 @@ def dijkstra(start, goal, obstacles):
             # - Compute new_x and new_y from old position 'pos' and dx, dy.
             # - Check that new_x is >= 0 and < extents[0], similarly for new_y.
             # - If not, skip the remaining part of this loop.
-
+            new_x = pos[0] + dx
+            new_y = pos[1] + dy
+            if new_x >=0 and new_x <extents[0] and new_y >= 0 and new_y < extents[1]:
+                pass
+            else:
+                continue
             # Add to front if: not visited before and no obstacle.
             new_pos = (new_x, new_y)
             # CHANGE 01_a:
             # If visited is 0 and obstacles is not 255 (both at new_pos), then:
             # append the tuple (cost + deltacost, new_pos) to the front.
+            if visited[new_pos] == 0 and obstacles[new_pos] !=255:
+                front.append((cost + deltacost,new_pos))
 
     return ([], visited)
 

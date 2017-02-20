@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # A* path planning.
 # Addition of potential function keeps path away from obstacles.
 # Note this modification changes only a single line in the A* algorithm.

@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # Dijkstra path planning.
 # Modification of Dijkstra algorithm to get A* algorithm.
 # pp_01_e_astar_solution

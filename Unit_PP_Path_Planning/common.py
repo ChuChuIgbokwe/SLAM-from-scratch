@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # Helper routines for the path planning algorithms.
 # These were pulled out to keep the main implementation functions clear.
 # Author: Claus Brenner, 17 JAN 2014
