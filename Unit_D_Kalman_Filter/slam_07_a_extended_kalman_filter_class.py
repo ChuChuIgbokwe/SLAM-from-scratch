@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # This introduces the extended Kalman Filter class.
 # The computational steps are the same as in Unit A,
 # slam_02_b_filter_motor_file.

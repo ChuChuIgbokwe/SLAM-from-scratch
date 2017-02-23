@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # EKF SLAM - prediction step.
 #
 # slam_09_a_slam_prediction
